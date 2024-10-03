@@ -1,7 +1,7 @@
 package com.xc.rewritespring.springframework.beans.factory.support;
 
 
-import com.xc.rewritespring.springframework.beans.factory.factory.BeanDefinition;
+import com.xc.rewritespring.springframework.beans.factory.config.BeanDefinition;
 
 /**
  * 作者：DerekYRC https://github.com/DerekYRC/mini-spring
