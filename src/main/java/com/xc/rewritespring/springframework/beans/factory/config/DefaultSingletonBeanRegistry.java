@@ -1,9 +1,11 @@
 package com.xc.rewritespring.springframework.beans.factory.config;
 
+import com.xc.rewritespring.springframework.beans.factory.factory.SingletonBeanRegistry;
+
 import java.util.HashMap;
 import java.util.Map;
 
-public class DefaultSingletonBeanRegistry implements SingletonBeanRegistry{
+public class DefaultSingletonBeanRegistry implements SingletonBeanRegistry {
 
 
     private Map<String, Object> singletonObjects = new HashMap<>();

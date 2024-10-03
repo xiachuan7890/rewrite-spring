@@ -1,4 +1,4 @@
-package com.xc.rewritespring.springframework.beans.factory.config;
+package com.xc.rewritespring.springframework.beans.factory.factory;
 
 public interface SingletonBeanRegistry {
 

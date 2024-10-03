@@ -1,4 +1,4 @@
-package com.xc.rewritespring.springframework.beans.factory;
+package com.xc.rewritespring.springframework.beans.factory.factory;
 
 
 @SuppressWarnings({"rawtypes"})

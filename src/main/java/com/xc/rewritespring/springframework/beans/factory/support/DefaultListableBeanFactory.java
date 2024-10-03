@@ -1,6 +1,6 @@
 package com.xc.rewritespring.springframework.beans.factory.support;
 
-import com.xc.rewritespring.springframework.beans.factory.BeanDefinition;
+import com.xc.rewritespring.springframework.beans.factory.factory.BeanDefinition;
 import com.xc.rewritespring.springframework.beans.factory.BeansException;
 
 import java.util.HashMap;
@@ -17,8 +17,11 @@ public class DefaultListableBeanFactory extends AbstractAutowireCapableBeanFacto
         return beanDefinition;
     }
 
+
+
     @Override
     public void registerBeanDefinition(String beanName, BeanDefinition beanDefinition) {
         beanDefinitionMap.put(beanName, beanDefinition);
     }
+
 }
