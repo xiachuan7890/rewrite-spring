@@ -2,7 +2,7 @@ package com.xc.rewritespring.springframework.beans.factory.support;
 
 
 import com.xc.rewritespring.springframework.beans.BeansException;
-import com.xc.rewritespring.springframework.beans.factory.config.BeanDefinition;
+import com.xc.rewritespring.springframework.beans.factory.factory.BeanDefinition;
 
 /**
  * 作者：DerekYRC https://github.com/DerekYRC/mini-spring

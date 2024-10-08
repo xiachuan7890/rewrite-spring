@@ -3,9 +3,9 @@ package com.xc.rewritespring.springframework.beans.factory.support;
 import cn.hutool.core.bean.BeanUtil;
 import com.xc.rewritespring.springframework.beans.PropertyValue;
 import com.xc.rewritespring.springframework.beans.PropertyValues;
-import com.xc.rewritespring.springframework.beans.factory.config.BeanDefinition;
+import com.xc.rewritespring.springframework.beans.factory.factory.BeanDefinition;
 import com.xc.rewritespring.springframework.beans.BeansException;
-import com.xc.rewritespring.springframework.beans.factory.config.BeanReference;
+import com.xc.rewritespring.springframework.beans.factory.factory.BeanReference;
 
 import java.lang.reflect.Constructor;
 

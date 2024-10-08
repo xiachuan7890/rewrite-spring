@@ -1,12 +1,13 @@
 package com.xc.rewritespring.springframework.beans.factory.support;
 
-import com.xc.rewritespring.springframework.beans.factory.config.BeanDefinition;
+import com.xc.rewritespring.springframework.beans.factory.ConfigurableListableBeanFactory;
+import com.xc.rewritespring.springframework.beans.factory.factory.BeanDefinition;
 import com.xc.rewritespring.springframework.beans.BeansException;
 
 import java.util.HashMap;
 import java.util.Map;
 
-public class DefaultListableBeanFactory extends AbstractAutowireCapableBeanFactory implements BeanDefinitionRegistry {
+public class DefaultListableBeanFactory extends AbstractAutowireCapableBeanFactory implements BeanDefinitionRegistry, ConfigurableListableBeanFactory {
 
     private Map<String, BeanDefinition> beanDefinitionMap = new HashMap<>();
 

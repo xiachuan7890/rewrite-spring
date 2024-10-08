@@ -1,9 +1,8 @@
 package com.xc.rewritespring.springframework.beans.factory.support;
 
-import com.xc.rewritespring.springframework.beans.factory.config.BeanDefinition;
+import com.xc.rewritespring.springframework.beans.factory.factory.BeanDefinition;
 import com.xc.rewritespring.springframework.beans.factory.BeanFactory;
 import com.xc.rewritespring.springframework.beans.BeansException;
-import com.xc.rewritespring.springframework.beans.factory.config.DefaultSingletonBeanRegistry;
 
 public abstract class AbstractBeanFactory extends DefaultSingletonBeanRegistry implements BeanFactory {
     @Override
@@ -12,8 +11,8 @@ public abstract class AbstractBeanFactory extends DefaultSingletonBeanRegistry i
     }
 
     @Override
-    public Object getBean(String name, Object... args) throws BeansException {
-        return doGetBean(name, args);
+    public <T> T getBean(String name, Class<T> requiredType) throws BeansException {
+        return (T) getBean(name);
     }
 
     protected <T> T doGetBean(final String name, final Object[] args) {

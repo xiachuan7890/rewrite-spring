@@ -1,4 +1,4 @@
-package com.xc.rewritespring.springframework.beans.factory.config;
+package com.xc.rewritespring.springframework.beans.factory.factory;
 
 /**
  * 作者：DerekYRC https://github.com/DerekYRC/mini-spring
